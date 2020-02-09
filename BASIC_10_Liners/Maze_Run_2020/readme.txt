@@ -56,6 +56,10 @@ Load Instructions:
 4. The game will start automatically
 -------------------------------------------------
 
+Link to play it online:
+https://msxpen.com/codes/-M-cP29FZetzv7CoJfpQ
+
+--------------------------------------------------
 
 A little about the code:
 
