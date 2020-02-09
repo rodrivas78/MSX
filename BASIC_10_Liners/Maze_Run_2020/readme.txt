@@ -44,10 +44,17 @@ To restart the game press "CTRL + STOP" (on an MSX) or
 "CRTL + PgUp" on an emulator, then press F5 or type RUN and 
 press Enter.
 
+--------------------------------------------------
+
+Link to play it online:
+https://msxpen.com/codes/-M-cP29FZetzv7CoJfpQ
+
+--------------------------------------------------
+
 Emulation
 ---------
 The game should work well on almost any MSX emulator, but I 
-would like recommend BlueMSX or openMSX. 
+would like recommend BlueMSX, openMSX or MSXPen/WebMSX.
 
 Load Instructions:
 1. Start BlueMSX .
@@ -56,10 +63,6 @@ Load Instructions:
 4. The game will start automatically
 -------------------------------------------------
 
-Link to play it online:
-https://msxpen.com/codes/-M-cP29FZetzv7CoJfpQ
-
---------------------------------------------------
 
 A little about the code:
 
@@ -92,9 +95,7 @@ To learn more about this one-liner I recommend reading the excellent book:
 The book can be downloaded for free through the following link:
 http://trope-tank.mit.edu/10_PRINT_121114.pdf
 
-
-Program descriptions and code explanations
-and screenshots can be found on my GitHub:
+GitHub link:
 https://github.com/rodrivas78/MSX/BASIC_10_Liners/Maze_Run_2020
 
 
