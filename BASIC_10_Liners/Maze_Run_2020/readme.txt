@@ -97,8 +97,9 @@ http://trope-tank.mit.edu/10_PRINT_121114.pdf
 
 
 Acknowledgments: I would like to thank Flávio Martins Prado (praduca), for 
-reviewing the code and for presenting this valuable book to me, which resulted
-in the creation of this 10 Liner.
+reviewing the code and for presenting to me this very interesting book, which 
+resulted in the conception of this 10 Liner.
+
 
 Rodrigo Gonzales
 e-mail.: rrivas2009@gmail.com
