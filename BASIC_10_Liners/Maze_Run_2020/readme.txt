@@ -95,9 +95,10 @@ To learn more about this one-liner I recommend reading the excellent book:
 The book can be downloaded for free through the following link:
 http://trope-tank.mit.edu/10_PRINT_121114.pdf
 
-GitHub link:
-https://github.com/rodrivas78/MSX/BASIC_10_Liners/Maze_Run_2020
 
+Acknowledgments: I would like to thank Flávio Martins Prado (praduca), for 
+reviewing the code and for presenting this valuable book to me, which resulted
+in the creation of this 10 Liner.
 
 Rodrigo Gonzales
 e-mail.: rrivas2009@gmail.com
