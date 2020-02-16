@@ -1,7 +1,7 @@
 ﻿
   
   
-    "TENancious Maze Race" 
+    "TENacious Maze Race" 
     
 
   This is my second entry for the "Basic 10Liner Contest 2020", another game based on the 
