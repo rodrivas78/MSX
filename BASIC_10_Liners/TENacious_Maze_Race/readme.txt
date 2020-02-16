@@ -20,7 +20,7 @@ Author: Rodrigo Gonzales
 Nick: Rodrivas78
 Language: MSX-BASIC v1.0
 
-Category: EXTREME-256
+Category: EXTREM-256
 
 Files:
 ------
