@@ -6,9 +6,9 @@
 
   This is my second entry for the "Basic 10Liner Contest 2020", another game based on the "10 PRINT one-liner" (more on that below). It is a continuation or even a variation of my previous entry "Maze Run 2020". The main differences are that these mazes are diagonal, has a lower screen resolution (SCREEN 3), greater freedom of movements and is faster. And in my opinion, more exciting!
 
-   The rules are the same so I will just copy from the other file. If you know "Maze Run 2020" you know almost everything you need to know of the "TENacious MAZE RACE"! 
-
- ->>Just be sure to read the additional rules: what to do if the maze has no way out.<<-
+  The rules are the same so I will just copy from the other file. If you know "Maze Run 2020" you know almost everything you need to know of the "TENacious MAZE RACE"! 
+ 
+ Just be sure to read the additional rules: what to do if the maze has no way out.
 
 
 Game description:
