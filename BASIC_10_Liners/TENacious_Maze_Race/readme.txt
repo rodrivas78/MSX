@@ -123,13 +123,13 @@ enshrined by users of Commodore 64. We can find it on line 20:
 
 Collision Detection:
 
-- Collision detection is done by the POINT command (lines 40 and 50),
-which returns in the variables "N" and "C" the color values ​​under the 
+- Collision detection is done by the POINT command (lines 30 to 60),
+which returns in the variables "N","Q","C" and "G" the color values ​​under the 
 position coordinates of each player. 
 
-The controls and movements of the players are on lines 60 and 70.
+The controls and movements of the players are on lines 70 and 80.
 
-The main Loop of the game occurs between lines 40 and 80.
+The main Loop of the game occurs between lines 30 and 90.
 
 ------------------------------------------------------------------------------
 
