@@ -41,7 +41,7 @@ GitHub:
 https://github.com/rodrivas78/MSX/edit/master/BASIC_10_Liners/TENacious_Maze_Race
 
 To play it online:
-https://msxpen.com/codes/-M0BBvudt31KqJUAQjMl
+https://msxpen.com/codes/-M0TTRF06pWs3pZxc7bI
 
 
 Game Instructions (be sure to read the "Additional Rules" below):
