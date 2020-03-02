@@ -4,7 +4,7 @@
  -----------------
 
 Title: "CompeTENt Bowling"
-Platform: MSX
+Platform: MSX 1
 Author: Rodrigo Gonzales
 Nick: rodrivas78
 Language: MSX-BASIC v1.0
