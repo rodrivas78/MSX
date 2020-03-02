@@ -7,8 +7,9 @@ Platform: MSX
 Author: Rodrigo Gonzales
 Nick: rodrivas78
 Language: MSX-BASIC v1.0
+Category: PUR-120
 
-This game was made for the "BASIC 10 Liners Contest 2020", for the category PUR-120
+This game was made for the "BASIC 10 Liners Contest 2020".
 
  Files:
  ------
