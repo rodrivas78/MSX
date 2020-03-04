@@ -30,7 +30,8 @@ https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Bowling_80
 To play it online:
 https://msxpen.com/codes/-M1OrsWJSYba4wldn1CW
 
-How to play online on your mobile: in the emulator go to settings (gear icon), then "touch setup" and change the directional pad to the (blue) arrows keys.
+How to play online on your mobile: in the emulator go to settings (gear icon), 
+then "touch setup" and change the directional pad to the (blue) arrows keys.
 
 
  Game Instructions:
