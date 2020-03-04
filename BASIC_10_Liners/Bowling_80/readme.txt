@@ -32,6 +32,7 @@ https://msxpen.com/codes/-M1OrsWJSYba4wldn1CW
 
 How to play online on your mobile: in the emulator go to settings (gear icon), then "touch setup" and change the directional pad to the (blue) arrows keys.
 
+
  Game Instructions:
  ------------------
 
