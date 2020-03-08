@@ -25,8 +25,7 @@ readme.txt: Description
 
 This is a two player race, in which scores whoever crosses the maze and 
 first reaches the "end zone" of his own color (on the opposite 
-side of the screen). Avoid touching the (white) walls of the maze
-or this will cause you to return to the beginning of the path.
+side of the screen). Avoid touching the walls!
 
   Controls:
 
