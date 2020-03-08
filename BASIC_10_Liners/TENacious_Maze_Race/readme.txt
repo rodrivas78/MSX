@@ -11,7 +11,7 @@
   in my opinion, more exciting!
 
   The rules are the same so I will just copy from the other file. If you know "Maze Run 2020" 
-  you know almost everything you need to know of the "TENacious MAZE RACE"! 
+  you know almost everything you need to know of the "TENacious Maze Race"! 
  
   Just be sure to read the additional rules: what to do if the maze has no way out.
 
@@ -95,7 +95,7 @@ variable "R" in line 10. Instead of R=3, change to R=2.
 Emulation:
 ---------
 The game should work well on almost any MSX emulator, but I 
-would like recommend BlueMSX or openMSX.
+would like to recommend BlueMSX or openMSX.
 
 Load Instructions:
 1. Start BlueMSX .
