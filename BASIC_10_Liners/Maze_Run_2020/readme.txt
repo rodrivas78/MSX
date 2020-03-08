@@ -55,7 +55,7 @@ https://msxpen.com/codes/-M-cP29FZetzv7CoJfpQ
 Emulation
 ---------
 The game should work well on almost any MSX emulator, but I 
-would like recommend BlueMSX, openMSX or MSXPen/WebMSX.
+would like to recommend BlueMSX, openMSX or MSXPen/WebMSX.
 
 Load Instructions:
 1. Start BlueMSX .
