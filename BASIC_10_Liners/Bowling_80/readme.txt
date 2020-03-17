@@ -46,12 +46,13 @@ it is before the boundary line.
  - SPACEBAR:  Starts a new game
 
  Scoresboard:
-
+ ------------
+ 
 The number on the left shows how many balls were thrown. The one on the right 
 shows how many pins were knocked down.
 
- Emulation:
- ----------
+  Emulation:
+  ----------
 
 The easiest way is to play online (MSXPen) at the link provided above. 
 If you want to play offline, BlueMSX can be used. Load Instructions:
@@ -62,7 +63,22 @@ If you want to play offline, BlueMSX can be used. Load Instructions:
 4. The game will start automatically
 
 To play in fullscreen press Alt+ENTER
--------------------------------------------------
+-------------------------------------
+
+
+ How well do you play it?
+ -------------------------
+
+It depends on how many balls you need to knock down all 21 
+pins!
+  
+ 10 Balls: Average
+  9 Balls: Good
+  8 Balls: Very good
+  7 Balls: Excellent
+  6 Balls: Perfect!  
+  
+ ------------------------------------------------
 
 
  Rodrigo Gonzales
