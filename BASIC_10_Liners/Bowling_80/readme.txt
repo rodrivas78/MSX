@@ -45,6 +45,10 @@ Can you knock down all 21 pins?!
 it is before the boundary line.
  - SPACEBAR:  Starts a new game
 
+ Scoresboard:
+
+The number on the left shows how many balls were thrown. The one on the right 
+shows how many pins were knocked down.
 
  Emulation:
  ----------
