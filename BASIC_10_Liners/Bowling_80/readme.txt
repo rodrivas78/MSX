@@ -66,7 +66,7 @@ To play in fullscreen press Alt+ENTER
 -------------------------------------
 
 
- How well do you play it?
+ How well do you play?
  -------------------------
 
 It depends on how many balls you need to knock down all 21 
