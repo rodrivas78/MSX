@@ -14,8 +14,7 @@ Category: PUR-80
  Files:
  ------
 
-BOWLNG80.BAS: BASIC file
-BOWLNG80.txt: Code in text format 
+BOWLIN80.BAS: BASIC file
 Bowling_80.png: Screenshot 
 Bowling_80.dsk: Disk image for emulator
 readme.txt: Description
@@ -28,7 +27,7 @@ GitHub:
 https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Bowling_80
 
 To play it online:
-https://msxpen.com/codes/-M1OrsWJSYba4wldn1CW
+https://msxpen.com/codes/-M2eOXcHvL0x4LmBWN0E
 
 How to play online on your mobile: in the emulator go to settings (gear icon), 
 then "touch setup" and change the directional pad to the (blue) arrows keys.
