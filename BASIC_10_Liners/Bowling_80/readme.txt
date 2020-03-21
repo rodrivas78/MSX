@@ -51,6 +51,7 @@ it is before the boundary line.
 The number on the left shows how many balls were thrown. The one on the right 
 shows how many pins were knocked down.
 
+
   Emulation:
   ----------
 
