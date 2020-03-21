@@ -27,7 +27,7 @@ GitHub:
 https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Bowling_80
 
 To play it online:
-https://msxpen.com/codes/-M2eOXcHvL0x4LmBWN0E
+https://msxpen.com/?code=-M2vf-4_gawBO5FZKxZR
 
 How to play online on your mobile: in the emulator go to settings (gear icon), 
 then "touch setup" and change the directional pad to the (blue) arrows keys.
@@ -67,7 +67,7 @@ To play in fullscreen press Alt+ENTER
 
 
  How well do you play?
- -------------------------
+ ----------------------
 
 It depends on how many balls you need to knock down all 21 
 pins!
