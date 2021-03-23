@@ -20,6 +20,9 @@ in PX and PY.
 
 The simulator is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
 
+<img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
+FIGURE_1
+
 
 Instructions:
 -------------
