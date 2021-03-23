@@ -123,10 +123,7 @@ Links:
  ------
 
 GitHub:
-https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulation
-
-To play it online:
-https://msxpen.com/?code=-M2vf-4_gawBO5FZKxZR
+https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulator
 
 
 ---------------------------------------------------------
