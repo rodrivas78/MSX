@@ -6,10 +6,10 @@
 Title: "Orbit Simulator"  
 Platform: MSX 1
 Language: "MSX-BASIC KUN" aka "X-BASIC" 
-Category: "SCHAU"
 
 
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot1.png" alt="header image" width="515" height="360">
+<img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
 
 
 
