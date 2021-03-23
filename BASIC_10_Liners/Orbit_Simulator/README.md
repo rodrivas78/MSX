@@ -1,7 +1,5 @@
 
 
- Game description:
- -----------------
 
 Title: "Orbit Simulator"  
 Platform: MSX 1
