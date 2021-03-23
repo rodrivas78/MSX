@@ -43,9 +43,7 @@ See below how to load the compiler before loading the program.
 Load instruction:
 -----------------
 
-Insert the DSK file into the emulator (or open the following link
-
-):
+Insert the DSK file into the emulator (or open the following link):
 
  
 There are two ways to load the program correctly.
