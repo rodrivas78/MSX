@@ -1,4 +1,4 @@
-﻿
+
 
  Game description:
  -----------------
@@ -15,7 +15,7 @@ Category: "SCHAU"
  ------
 
 ORBITSIM.BAS: BASIC file
-OrbitSim.png: Screenshot 
+screenshot1.png: Screenshot 
 Orbit Simulator.dsk: Disk image for emulator
 read_me.txt: Description
 ------------------------------------------------------
