@@ -1,6 +1,6 @@
 
 
- Game description:
+ Software description:
  -----------------
 
 Title: "Orbit Simulator"  
