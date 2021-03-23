@@ -45,6 +45,8 @@ Load instruction:
 
 Insert the DSK file into the emulator (or open the following link):
 
+https://webmsx.org/?DISK=https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/Orbit_Simulator.dsk
+
  
 There are two ways to load the program correctly.
   
@@ -108,10 +110,9 @@ Description of the variables:
 
 Links:
  ------
-
+ 
 GitHub:
 https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulation
-
 
 
 ---------------------------------------------------------
