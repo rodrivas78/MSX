@@ -5,20 +5,12 @@
 
 Title: "Orbit Simulator"  
 Platform: MSX 1
-Author: Rodrigo Gonzales
-Nick: rodrivas78
 Language: "MSX-BASIC KUN" aka "X-BASIC" 
 Category: "SCHAU"
 
 
- Files:
- ------
+<img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot1.png" alt="header image" width="515" height="360">
 
-ORBITSIM.BAS: BASIC file
-OrbitSim.png: Screenshot 
-Orbit Simulator.dsk: Disk image for emulator
-read_me.txt: Description
-------------------------------------------------------
 
 
 
