@@ -7,11 +7,11 @@ Orbit Simulator
 Platform: MSX 1 </br>
 Language:  "X-BASIC" aka "MSX-BASIC KUN" 
 
-&#013;
+</br>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
 
 
-&#013;
+</br>
 With the Orbit Simulator you can, as the name implies, simulate orbital trajectories. For this you only need to change (on the 1st 
 line) the initial velocity parameters of the "satellite", contained in the variables VX and VY. For a better understanding see FIGURE 1. 
 
@@ -19,7 +19,7 @@ You can also redefine the location of the star (attractor) by changing variables
 in PX and PY.
 
 The simulation is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
-&#013;
+</br>
 
 <figure>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
