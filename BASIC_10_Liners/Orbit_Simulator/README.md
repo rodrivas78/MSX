@@ -7,7 +7,7 @@ Orbit Simulator
 Platform: MSX 1 </br>
 Language:  "X-BASIC" aka "MSX-BASIC KUN" 
 
-<a> &#013; </a>
+<a> &#013;  &#013; </a>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
 
 
@@ -18,8 +18,9 @@ line) the initial velocity parameters of the "satellite", contained in the varia
 You can also redefine the location of the star (attractor) by changing variables X and Y. And also the satellite's initial position in 
 in PX and PY.
 
-The simulator is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
+The simulation is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
 
+<a> &#013;  &#013; </a>
 
 <figure>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
