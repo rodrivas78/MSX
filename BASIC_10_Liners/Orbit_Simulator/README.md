@@ -20,6 +20,7 @@ in PX and PY.
 
 The simulation is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
 </br>
+</br>  
 
 <figure>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
@@ -95,7 +96,6 @@ Description of the variables:
  VX = velocity vector on the x-axis   </br>
  VY = velocity vector on the y-axis   </br>
  AX and AY = Acceleration vectors   </br>
-</br>  
 </br>  
  
  
