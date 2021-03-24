@@ -25,7 +25,7 @@ The simulation is not accurate, but you can play around discovering interesting 
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
 	<figcaption>FIGURE_1</figcaption>
 </figure>
-
+</br>  
 
 Instructions:
 -------------
@@ -37,7 +37,7 @@ Type LIST (or F4 key) to show the listing.
 
 After changing any of the parameters, type RUN (or F5 key).
 </br>
-
+</br>  
 
 Load instruction:
 -----------------
@@ -53,7 +53,7 @@ You can also type at the BASIC prompt:
  
 run"autoexec.bas"  &lt;ENTER&gt;
 </br>
-
+</br>  
 
 Physics:
 --------
@@ -84,7 +84,7 @@ Velocity calculation:
 
 The satellite is always being accelerated towards the star. The closer the trajectory pass through it, the greater the acceleration applied to the satellite (gravitational slingshot).
 </br>
-
+</br>  
 Description of the variables:
 -----------------------------
   
@@ -94,7 +94,7 @@ Description of the variables:
  VY = velocity vector on the y-axis   </br>
  AX and AY = Acceleration vectors   </br>
 </br>  
-
+</br>  
  
  
  
