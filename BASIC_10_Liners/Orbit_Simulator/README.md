@@ -26,7 +26,7 @@ The simulation is not accurate, but you can play around discovering interesting 
 	<figcaption>FIGURE_1</figcaption>
 </figure>
 </br>  
-
+</br>  
 Instructions:
 -------------
 
