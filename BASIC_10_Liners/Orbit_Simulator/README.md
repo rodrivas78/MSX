@@ -98,10 +98,9 @@ Description of the variables:
  AX and AY = Acceleration vectors   </br>
 </br>  
  
- 
- 
+--------------------------------------------------
 Acknowledgement:
-----------------
+
 
 Thanks to Flávio Martins Prado ("praduca") for revising the code, improving and updating the loader.
 
