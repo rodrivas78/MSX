@@ -111,7 +111,7 @@ Links:
 ------
  
 GitHub:
-https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulation
+https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulator
 
 
 ---------------------------------------------------------
