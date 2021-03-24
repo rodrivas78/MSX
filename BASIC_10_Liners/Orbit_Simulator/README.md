@@ -7,7 +7,7 @@ Orbit Simulator
 Platform: MSX 1 </br>
 Language:  "X-BASIC" aka "MSX-BASIC KUN" 
 
-<a> &#013;  &#013; </a>
+</br>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
 
 
@@ -19,8 +19,7 @@ You can also redefine the location of the star (attractor) by changing variables
 in PX and PY.
 
 The simulation is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
-
-<a> &#013;  &#013; </a>
+</br>
 
 <figure>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
