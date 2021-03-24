@@ -12,8 +12,8 @@ Language:  "X-BASIC" aka "MSX-BASIC KUN"
 
 
 </br>
-With the Orbit Simulator you can, as the name implies, simulate orbital trajectories. For this you only need to change (on the 1st 
-line) the initial velocity parameters of the "satellite", contained in the variables VX and VY. For a better understanding see FIGURE 1. 
+With the Orbit Simulator you can, as the name implies, simulate orbital trajectories. For this you only need to change (on the 2n line) 
+the initial velocity parameters of the "satellite", contained in the variables VX and VY. For a better understanding see FIGURE 1. 
 
 You can also redefine the location of the star (attractor) by changing variables X and Y. And also the satellite's initial position in 
 in PX and PY.
