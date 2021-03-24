@@ -23,6 +23,11 @@ The simulator is not accurate, but you can play around discovering interesting t
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
 FIGURE_1
 
+<figure>
+<img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
+	<figcaption>FIGURE_1</figcaption>
+</figure>
+
 
 Instructions:
 -------------
@@ -98,7 +103,7 @@ Description of the variables:
  ------------------------------------------------
 
 Links:
- ------
+------
  
 GitHub:
 https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulation
