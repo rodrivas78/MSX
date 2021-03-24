@@ -1,8 +1,10 @@
 
 
 
-Title: "Orbit Simulator"  
-Platform: MSX 1
+Orbit Simulator
+---------------
+
+Platform: MSX 1 </br>
 Language: "MSX-BASIC KUN" aka "X-BASIC" 
 
 
