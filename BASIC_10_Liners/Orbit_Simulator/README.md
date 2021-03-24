@@ -36,7 +36,7 @@ To stop the simulation and return to the BASIC promt, type 'q'
 Type LIST (or F4 key) to show the listing.
 
 After changing any of the parameters, type RUN (or F5 key).
-
+</br>
 
 
 Load instruction:
@@ -52,7 +52,7 @@ The program should start automatically.
 You can also type at the BASIC prompt:
  
 run"autoexec.bas"  &lt;ENTER&gt;
-
+</br>
 
 
 Physics:
@@ -83,7 +83,7 @@ Velocity calculation:
 ---------
 
 The satellite is always being accelerated towards the star. The closer the trajectory pass through it, the greater the acceleration applied to the satellite (gravitational slingshot).
-
+</br>
 
 Description of the variables:
 -----------------------------
@@ -93,7 +93,7 @@ Description of the variables:
  VX = velocity vector on the x-axis   </br>
  VY = velocity vector on the y-axis   </br>
  AX and AY = Acceleration vectors   </br>
-  
+</br>  
  ------------------------------------------------
  
  
@@ -113,6 +113,6 @@ https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulation
 
 ---------------------------------------------------------
 
- Rodrigo Gonzales
- e-mail.: rrivas2009@gmail.com
+ Rodrigo Gonzales </br>
+ e-mail.: rrivas2009@gmail.com </br>
  Twitter: @rodrivas78
