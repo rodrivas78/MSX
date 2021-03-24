@@ -7,7 +7,7 @@ Orbit Simulator
 Platform: MSX 1 </br>
 Language:  "X-BASIC" aka "MSX-BASIC KUN" 
 
-
+<a> &#013; </a>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
 
 
@@ -20,8 +20,6 @@ in PX and PY.
 
 The simulator is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
 
-<img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
-FIGURE_1
 
 <figure>
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/FIGURE_1.png" alt="header image" width="343" height="240">
@@ -35,14 +33,10 @@ Instructions:
 To stop the simulation and return to the BASIC promt, type 'q' 
 (lower case).
 
-Type LIST <ENTER> to show the listing.
+Type LIST &lt;ENTER&gt; (or F4 key) to show the listing.
 
-After changing any of the parameters, type _RUN (or CALL RUN),
-to run the program in TURBO mode.
+After changing any of the parameters, type RUN (or F5 key).
 
-For you to enjoy this program to its full potential, it is necessary to 
-use the "X-BASIC" compiler (aka "MSX-BASIC KUN", or "TURBO BASIC").
-See below how to load the compiler before loading the program. 
 
 
 Load instruction:
@@ -57,7 +51,7 @@ The program should start automatically.
 
 You can also type at the BASIC prompt:
  
-run"autoexec.bas"
+run"autoexec.bas"  &lt;ENTER&gt;
 
 
 
