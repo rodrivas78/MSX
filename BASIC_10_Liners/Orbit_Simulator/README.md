@@ -107,12 +107,6 @@ Thanks to Flávio Martins Prado ("praduca") for revising the code, improving and
 
 </br>  
 
-Links:
-------
- 
-GitHub:
-https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulator
-
 
 ---------------------------------------------------------
 
