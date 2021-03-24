@@ -5,7 +5,7 @@ Orbit Simulator
 ---------------
 
 Platform: MSX 1 </br>
-Language: "MSX-BASIC KUN" aka "X-BASIC" 
+Language:  "X-BASIC" aka "MSX-BASIC KUN" 
 
 
 <img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
@@ -43,28 +43,17 @@ See below how to load the compiler before loading the program.
 Load instruction:
 -----------------
 
+
 Insert the DSK file into the emulator (or open the following link):
 
 https://webmsx.org/?DISK=https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/Orbit_Simulator.dsk
 
+The program should start automatically.
+
+You can also type at the BASIC prompt:
  
-There are two ways to load the program correctly.
-  
-- Method 1 - using the loader:
+run"autoexec.bas"
 
-(enter the following commands at the BASIC promt)
-
-LOAD"LOADER" <ENTER>
-RUN <ENTER>
-CALL RUN <ENTER>
-
-Note: CALL RUN can be replaced by _RUN
-
-
-- Method 2:
-BLOAD"XBASIC.BIN",R <ENTER>
-LOAD"ORBITSIM.BAS" <ENTER>
-_RUN <ENTER>
 
 
 Physics:
@@ -82,13 +71,13 @@ acceleration), both using a time interval, defined in T.
 
 Position calculation:
 
- Px = Px + Vx * T 
- Py = Py + Vy * T
+ Px = Px + Vx * T  </br>
+ Py = Py + Vy * T  </br>
 
 Velocity calculation:
 
- Vy = Vy + Ay * T 
- Vx = Vx + Ax * T
+ Vy = Vy + Ay * T  </br>
+ Vx = Vx + Ax * T   </br>
 
 
 *Gravity
@@ -100,11 +89,11 @@ The satellite is always being accelerated towards the star. The closer the traje
 Description of the variables:
 -----------------------------
   
- X and Y = star initial position
- PX and PY = satellite start position  
- VX = velocity vector on the x-axis  
- VY = velocity vector on the y-axis
- AX and AY = Acceleration vectors
+ X and Y = star initial position  </br>
+ PX and PY = satellite start position   </br>
+ VX = velocity vector on the x-axis   </br>
+ VY = velocity vector on the y-axis   </br>
+ AX and AY = Acceleration vectors   </br>
   
  ------------------------------------------------
 
