@@ -86,6 +86,7 @@ Velocity calculation:
 The satellite is always being accelerated towards the star. The closer the trajectory pass through it, the greater the acceleration applied to the satellite (gravitational slingshot).
 </br>
 </br>  
+
 Description of the variables:
 -----------------------------
   
