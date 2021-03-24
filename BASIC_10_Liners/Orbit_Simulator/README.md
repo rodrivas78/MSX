@@ -94,7 +94,8 @@ Description of the variables:
  VY = velocity vector on the y-axis   </br>
  AX and AY = Acceleration vectors   </br>
 </br>  
- ------------------------------------------------
+
+ 
  
  
 Acknowledgement:
@@ -102,7 +103,7 @@ Acknowledgement:
 
 Thanks to Flávio Martins Prado ("praduca") for revising the code, improving and updating the loader.
 
-----------------------------------------------------------------
+</br>  
 
 Links:
 ------
