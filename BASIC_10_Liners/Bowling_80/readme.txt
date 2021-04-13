@@ -83,7 +83,6 @@ pins!
 
 
  Rodrigo Gonzales
- e-mail.: rrivas2009@gmail.com
  Twitter: @rodrivas78
 
 
