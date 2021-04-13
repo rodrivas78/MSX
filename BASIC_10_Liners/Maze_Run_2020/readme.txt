@@ -102,6 +102,6 @@ resulted in the conception of this 10 Liner.
 
 
 Rodrigo Gonzales
-e-mail.: rrivas2009@gmail.com
+Twitter: @rodrivas78
 
 
