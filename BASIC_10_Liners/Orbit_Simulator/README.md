@@ -108,5 +108,4 @@ Thanks to Flávio Martins Prado ("praduca") for revising the code, improving and
 ---------------------------------------------------------
 
  Rodrigo Gonzales </br>
- e-mail.: rrivas2009@gmail.com </br>
  Twitter: @rodrivas78
