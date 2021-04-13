@@ -140,7 +140,6 @@ http://trope-tank.mit.edu/10_PRINT_121114.pdf
 
 
 Rodrigo Gonzales
-e-mail.: rrivas2009@gmail.com
 Twitter: @rodrivas78
 
 
