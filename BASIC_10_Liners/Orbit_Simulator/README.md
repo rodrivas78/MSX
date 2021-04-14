@@ -18,7 +18,9 @@ the initial velocity parameters of the "satellite", contained in the variables V
 You can also redefine the location of the star (attractor) by changing variables X and Y. And also the satellite's initial position in 
 in PX and PY.
 
-The simulation is not accurate, but you can play around discovering interesting trajectories that form beautiful images.
+The simulation is relatvely accurate. 
+
+Play around tweaking and exploraing the values, discovering interesting trajectories that form beautiful images.
 </br>
 </br>  
 
