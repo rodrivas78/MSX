@@ -99,7 +99,14 @@ Description of the variables:
  VY = velocity vector on the y-axis   </br>
  AX and AY = Acceleration vectors   </br>
 </br>  
- 
+
+Note:
+-----
+
+This program participated in BASIC 10 Liner Contest 2021 edition, in the SCHAU category.
+
+</br>  
+
 --------------------------------------------------
 Acknowledgement:
 
