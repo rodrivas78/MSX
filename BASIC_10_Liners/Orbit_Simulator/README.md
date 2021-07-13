@@ -5,16 +5,11 @@ Orbit Simulator
 ---------------
 
 Platform: MSX 1 </br>
-Language:  "X-BASIC" aka "MSX-BASIC KUN" 
 
 Hello! There is a new version of this program at the following link:
 https://github.com/rodrivas78/MSX/tree/master/Orbit%20Simulator%20v2.0
 It is no longer a ten liner but is now more precise and accurate with respect to Newtonian gravitational theory. In other words, maybe now it deserves to use "Simulator" in the title!
 
-<--
-</br>
-<img src="https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Orbit_Simulator/screenshots/screenshot2.png" alt="header image" width="515" height="360">
-!->
 
 </br>
 With the Orbit Simulator you can, as the name implies, simulate orbital trajectories. For this you only need to change (on line 1) 
