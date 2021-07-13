@@ -31,7 +31,7 @@ Notes:
 To change the initial velocity parameters it is necessary to change the variables VX and VY in line 20. You can also redefine the location of the star (attractor) by changing 
 variables X and Y. And also the satellite's initial position in PX and PY.
 
-The simulation is now slower due to more calculations.
+The simulation is now slower due to more calculations. It is practically mandatory to use the "X-BASIC" (aka "MSX-BASIC KUN) compiler, otherwise the software will run extremely slow.
 
 I still haven't got a perfect balance on this algorithm. It works reasonably well in the first few orbits but the satellite gets closer and closer to the "star" (and speeds up), so the orbit becomes more eccentric.
 
