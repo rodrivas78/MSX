@@ -17,6 +17,7 @@ Here is a new version of "Orbit Simulator" for MSX.
 
 The <a href="https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Orbit_Simulator">first version</a> was the one I published in the "BASIC 10 Liner Contest 2021", where the only concern was to create an interesting effect on the screen.
 In this current version, what I'm looking for is accuracy, making it more faithful to <a href="https://en.wikipedia.org/wiki/Newton%27s_law_of_universal_gravitation">Newton's law of universal gravitation.</a>
+---------------------------------------------------------------------------------
 
 </br>  
 </br>  
