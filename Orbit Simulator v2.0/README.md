@@ -51,9 +51,12 @@ The program should start automatically.
 
 You can also type at the BASIC prompt:
 run"autoexec.bas" <ENTER>
+  
+----------------------------------------------------------------------------
 
 Any questions or suggestions please contact me.
 
 Rodrigo Gonzales
+  
 Twitter: @rodrivas78
 
