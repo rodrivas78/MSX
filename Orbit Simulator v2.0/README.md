@@ -1,10 +1,11 @@
 
 
-Orbit Simulator v2.0 for MSX
+Orbit Simulator (v2.0)
 ============================
 
+plataform: MSX 1
 
-
+---------------------------------------------------------------
 Here is a new version of "Orbit Simulator" for MSX.
 
 
