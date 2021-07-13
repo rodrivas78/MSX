@@ -15,7 +15,8 @@ It is no longer a "ten liner" but is now more precise and accurate with respect 
 
 
 </br>
-With the Orbit Simulator you can, as the name implies, simulate orbital trajectories. For this you only need to change (on the 1st line) the initial velocity parameters of the "satellite", contained in the variables VX and VY. For a better understanding see FIGURE 1. You can also redefine the location of the star (attractor) by changing variables X and Y. And also the satellite's initial position in in PX and PY.
+With the Orbit Simulator you can, as the name implies, simulate orbital trajectories. For this you only need to change (on the 1st line) the initial velocity parameters of the "satellite", contained in the variables VX and VY. 
+For a better understanding see FIGURE 1. You can also redefine the location of the star (attractor) by changing variables X and Y. And also the satellite's initial position in in PX and PY.
 
 
 For this you only need to change (on line 1) the initial velocity parameters of the "satellite", contained in the variables VX and VY. For a better understanding see FIGURE 1. 
