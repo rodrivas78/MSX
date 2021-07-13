@@ -14,12 +14,21 @@ In this current version, what I'm looking for is accuracy, making it more faithf
 New Features:
 -------------
 
-Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively), for this, uncomment line 150. To uncomment, just erase the apostrophe at the beginning of the line. (Use 3X acceleration to see more clearly).
+Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe at the beginning of the line. (Use 3X acceleration to see more clearly).
+
+Instructions:
+-------------
+
+To stop the simulation and return to the BASIC promt, type 'q' (lower case).
+
+Type LIST (or F4 key) to show the listing.
+
+After changing any of the parameters, type RUN (or F5 key).
 
 Notes:
 ------
 
-To change the initial speed parameters it is necessary to change the variables VX and VY in line 20 (see instructions below). In a future version it will be possible to do this without having to stop and list the program.
+To change the initial velocity parameters it is necessary to change the variables VX and VY in line 20. 
 
 The simulation is now slower due to more calculations.
 
