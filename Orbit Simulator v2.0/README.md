@@ -14,7 +14,7 @@ In this current version, what I'm looking for is accuracy, making it more faithf
 New Features:
 -------------
 
-Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe at the beginning of the line. (Use 3X acceleration to see more clearly).
+Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe at the beginning of the line. 
 
 Instructions:
 -------------
