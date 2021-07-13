@@ -6,8 +6,7 @@ Orbit Simulator (v2.0)
 plataform: MSX 1
 
 <figure>
-<img src="https://github.com/rodrivas78/MSX/raw/master/Orbit%20Simulator%20v2.0/screenshots/orbit_simulator_2_0.png" alt="header image" >
-	
+<img src="https://github.com/rodrivas78/MSX/raw/master/Orbit%20Simulator%20v2.0/screenshots/orbit_simulator_2_0.png" alt="header image" width="432" height="312">	
 </figure>
 </br>  
 </br>  
