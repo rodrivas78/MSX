@@ -28,7 +28,8 @@ After changing any of the parameters, type RUN (or F5 key).
 Notes:
 ------
 
-To change the initial velocity parameters it is necessary to change the variables VX and VY in line 20. 
+To change the initial velocity parameters it is necessary to change the variables VX and VY in line 20. You can also redefine the location of the star (attractor) by changing 
+variables X and Y. And also the satellite's initial position in PX and PY.
 
 The simulation is now slower due to more calculations.
 
