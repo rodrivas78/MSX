@@ -33,9 +33,9 @@ Instructions:
 
 To stop the simulation and return to the BASIC promt, type 'q' (lower case).
 
-Type LIST (or F4 key) to show the listing.
+Type LIST 20  to show the listing of the main parameters.
 
-After changing any of the parameters, type RUN (or F5 key).
+After making the changes, press ENTER and after that type RUN (or F5 key).
 
 Notes:
 ------
