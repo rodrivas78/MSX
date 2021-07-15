@@ -1,5 +1,5 @@
 
-PONG for MSX   
+PONG for MSX  
 ============
   
   <figure>
