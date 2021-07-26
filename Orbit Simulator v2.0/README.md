@@ -28,22 +28,22 @@ New Features:
 
 It is now possible to trigger the spacecraft thrusters and cause runtime orbit changes.
 
-New controls:
--------------
+  New controls:
 
-"a" key (lowercase): Acceleration -> trigger the trusters and cause an acceleration. The orbital path will be marked in red during the activation. 
+  "a" key (lowercase): Acceleration -> trigger the trusters and cause an acceleration. The orbital path will be marked in red during the activation. 
                                                                       
-"d" key (lowercase): Retro-burn -> causes a deceleration. The orbital path will be marked in blue.
+  "d" key (lowercase): Retro-burn -> causes a deceleration. The orbital path will be marked in blue.
+  
 
 With this new feature we can simulate orbital transfers. For example the <a href="https://en.wikipedia.org/wiki/Hohmann_transfer_orbit">Hohmann transfer orbit.</a>
 
 <img src="https://raw.githubusercontent.com/rodrivas78/MSX/master/Orbit%20Simulator%20v2.0/screenshots/hohmman1.png" alt="header image" width="432" height="312">	
 
 
-Vector view
-------------
+   Vector view
 
-Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe at the beginning of the line. 
+
+   Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe   at the beginning of the line. 
 
 Instructions:
 -------------
@@ -53,6 +53,8 @@ To stop the simulation and return to the BASIC promt, type 'q' (lower case).
 Type LIST 20  to show the listing of the main parameters.
 
 After making the changes, press ENTER and after that type RUN (or F5 key).
+
+Press "a" to accelerate or "d" to decelerate to spaceship.
 
 Notes:
 ------
