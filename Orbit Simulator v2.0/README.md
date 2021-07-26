@@ -1,6 +1,6 @@
 
 
-Orbit Simulator (v2.0)
+Orbit Simulator (v2.1)
 ============================
 
 plataform: MSX 1
