@@ -23,8 +23,25 @@ In this current version, what I'm looking for is accuracy, making it more faithf
 </br>  
 </br>  
 
-New Feature:
+New Features:
 -------------
+
+It is now possible to trigger the spacecraft thrusters and cause runtime orbit changes.
+
+New controls:
+-------------
+
+"a" (lowercase) key: Acceleration -> trigger the trusters and cause an acceleration. The orbital path will be marked in red during the activation. 
+                                                                      
+"d" (lowercase): Retro-burn -> causes a deceleration. The orbital path will be marked in blue.
+
+With this new feature we can simulate orbital transfers. For example the <a href="https://en.wikipedia.org/wiki/Hohmann_transfer_orbit">Hohmann transfer orbit.</a>
+
+<img src="https://github.com/rodrivas78/MSX/raw/master/Orbit%20Simulator%20v2.0/screenshots/orbit_simulator_2_0.png" alt="header image" width="432" height="312">	
+
+
+Vector view
+------------
 
 Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe at the beginning of the line. 
 
