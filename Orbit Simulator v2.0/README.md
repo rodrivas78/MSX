@@ -87,7 +87,7 @@ run"autoexec.bas" <ENTER>
 Known issues:
 ------------- 
 
-Rarely can occur (at points where the spacecraft is in the same vertical or horizontal position as the Earth) a miscalculation that causes a substantial and abrupt increase in speed values, causing it to disappear from the screen in an instant. Due to system limitations I preferred not to create more check conditionals, which could solve the problem, but would compromise even more the simulation speed. 
+Sometimes it can occur (at points where the spacecraft is in the same vertical or horizontal position as the Earth) a miscalculation that causes a substantial and abrupt increase in speed values, causing it to disappear from the screen in an instant. Due to system limitations I preferred not to create more check conditionals, which could solve the problem, but would compromise even more the simulation speed. If this happens press "q" (quit) and then F5 to restart the simulation.
   
 ----------------------------------------------------------------------------
 
