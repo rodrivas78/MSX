@@ -42,8 +42,7 @@ With this new feature we can simulate orbital transfers. For example the <a href
 
 
   <li>  Vector view </li>
-
-
+ </br>  
    Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 170. To uncomment, just erase the apostrophe   at the beginning of the line. 
 
 Instructions:
