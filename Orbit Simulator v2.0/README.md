@@ -31,13 +31,13 @@ It is now possible to trigger the spacecraft thrusters and cause runtime orbit c
 New controls:
 -------------
 
-"a" (lowercase) key: Acceleration -> trigger the trusters and cause an acceleration. The orbital path will be marked in red during the activation. 
+"a" key (lowercase): Acceleration -> trigger the trusters and cause an acceleration. The orbital path will be marked in red during the activation. 
                                                                       
-"d" (lowercase): Retro-burn -> causes a deceleration. The orbital path will be marked in blue.
+"d" key (lowercase): Retro-burn -> causes a deceleration. The orbital path will be marked in blue.
 
 With this new feature we can simulate orbital transfers. For example the <a href="https://en.wikipedia.org/wiki/Hohmann_transfer_orbit">Hohmann transfer orbit.</a>
 
-<img src="https://github.com/rodrivas78/MSX/raw/master/Orbit%20Simulator%20v2.0/screenshots/orbit_simulator_2_0.png" alt="header image" width="432" height="312">	
+<img src="https://raw.githubusercontent.com/rodrivas78/MSX/master/Orbit%20Simulator%20v2.0/screenshots/hohmman1.png" alt="header image" width="432" height="312">	
 
 
 Vector view
@@ -57,12 +57,12 @@ After making the changes, press ENTER and after that type RUN (or F5 key).
 Notes:
 ------
 
-To change the initial velocity parameters it is necessary to change the variables VX and VY in line 20. You can also redefine the location of the star (attractor) by changing 
-variables X and Y. And also the satellite's initial position in PX and PY.
+To change the initial velocity parameters it is necessary to change the variables VX and VY in line 20. You can also redefine the location of the Earth by changing 
+variables X and Y. And also the spacecraft's initial position in PX and PY.
 
 The simulation is now slower due to more calculations. It is practically mandatory to use the "X-BASIC" (aka "MSX-BASIC KUN) compiler, otherwise the software will run extremely slow.
 
-I still haven't got a perfect balance on this algorithm. It works reasonably well in the first few orbits but the satellite gets closer and closer to the "star" (and speeds up), so the orbit becomes more eccentric.
+I still haven't got a perfect balance on this algorithm. It works reasonably well in the first few orbits but the satellite gets closer and closer to the Earth (and speeds up), then there is a raising orbit.
 
 Tips:
 -----
