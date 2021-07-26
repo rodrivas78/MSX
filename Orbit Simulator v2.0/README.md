@@ -43,7 +43,7 @@ With this new feature we can simulate orbital transfers. For example the <a href
    Vector view
 
 
-   Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 150. To uncomment, just erase the apostrophe   at the beginning of the line. 
+   Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 170. To uncomment, just erase the apostrophe   at the beginning of the line. 
 
 Instructions:
 -------------
@@ -54,7 +54,7 @@ Type LIST 20  to show the listing of the main parameters.
 
 After making the changes, press ENTER and after that type RUN (or F5 key).
 
-Press "a" to accelerate or "d" to decelerate to spaceship.
+Press "a" to accelerate or "d" to decelerate to spacecraft.
 
 Notes:
 ------
