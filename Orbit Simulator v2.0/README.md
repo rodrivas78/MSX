@@ -54,7 +54,7 @@ Type LIST 20  to show the listing of the main parameters.
 
 After making the changes, press ENTER and after that type RUN (or F5 key).
 
-Press "a" to accelerate or "d" to decelerate to spacecraft.
+Press "a" to accelerate or "d" to decelerate the spacecraft.
 
 Notes:
 ------
