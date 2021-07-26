@@ -26,7 +26,8 @@ In this current version, what I'm looking for is accuracy, making it more faithf
 New Features:
 -------------
 
-It is now possible to trigger the spacecraft thrusters and cause runtime orbit changes.
+<li>   It is now possible to trigger the spacecraft thrusters and cause runtime orbit changes.</li>
+</br>
 
   New controls:
 
@@ -40,7 +41,7 @@ With this new feature we can simulate orbital transfers. For example the <a href
 <img src="https://raw.githubusercontent.com/rodrivas78/MSX/master/Orbit%20Simulator%20v2.0/screenshots/hohmman1.png" alt="header image" width="432" height="312">	
 
 
-   Vector view
+  <li>  Vector view </li>
 
 
    Now it is possible to observe the acceleration and velocity vectors (blue and fuchsia, respectively). For this, uncomment line 170. To uncomment, just erase the apostrophe   at the beginning of the line. 
