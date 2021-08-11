@@ -25,8 +25,8 @@ Note:
 
 Cool (and weird) things start happening after pressing the spacebar and the volume is at 16.
 Try changing the envelope value while performing a glissando (using the up and down arrows).
-
 Your MSX will probably turn into an electronic music machine!
+
 --------------------------------------------------------------
 
 
