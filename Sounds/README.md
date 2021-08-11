@@ -7,7 +7,7 @@ MICROTONAL SYNTH
  
 F1 / F6: Change octave  <br>
 F2 / F3: Change step value   <br>
-F4 / F5: Equalize current frequency with the freq; of another channel (register).   <br>
+F4 / F5: Equalize current frequency with the frequency of another channel (register).   <br>
 F7 / F8:  Volume   <br>
 F9 / F10:  Envelope   <br>
 Spacebar:  Add some noise  <br>
