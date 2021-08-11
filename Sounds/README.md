@@ -1,6 +1,7 @@
 MICROTONAL SYNTH 
 =================
  
+ (Try it online. Link below)
 
  Controls:
 -----------
@@ -19,5 +20,14 @@ Up / Down:  Change fequency without step (glissando)   <br>
 Left / Right:  Change frequency with step   <br>
 Spacebar:  Add some noise 
 
+Note:
+-----
+
 Cool (and weird!) things start happening after pressing the spacebar and the volume is at 16.
 Try changing the envelope value while performing a glissando (using the up and down arrows).
+
+---------------------------------------------------------------------------------------
+
+<a href="https://msxpen.com/codes/-MgnMdyG53b0N3c-ZGea">Click here</a> to try it out.
+----------------------------------------------------------------------------------------
+
