@@ -16,8 +16,8 @@ Spacebar:  Add some noise  <br>
 Arrows:
 -------
 
-Up / Down:   Change fequency without step (glissando)   <br>
-Left / Right:   Change frequency with step   <br>
+Up / Down:   Change fequency <i> without </i> step (glissando)   <br>
+Left / Right:   Change frequency <i> with </i> step   <br>
 Spacebar:   Add some noise 
 
 Note:
