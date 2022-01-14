@@ -1,0 +1,3 @@
+10 BLOAD"XBASIC.BIN",R
+20 RUN"orbtsim2.BAS"
+
