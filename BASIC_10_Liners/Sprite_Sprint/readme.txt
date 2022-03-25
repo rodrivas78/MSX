@@ -49,8 +49,16 @@ Keyboard:
   - SPACEBAR (ACCELERATOR): gas pedal
 
 Tips:
- ----
+----
   - Increase the volume (the game has some sounds).
+  
+ Code overview:
+ --------------
+ - Lines 0-2 are initialization. 
+ - Lines 3-5 are game loop.
+ - 6-7 is the game reset subroutine.
+ - 8 is collision handling (also used as audio reset).
+ - and line 9 is the cassete loading simulation.
 
 
 Emulation:
