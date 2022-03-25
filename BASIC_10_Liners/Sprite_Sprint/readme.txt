@@ -23,7 +23,7 @@ Links:
 GitHub:
 https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Sprite_Sprint
 
-To play it online:
+Play it online here:
 https://webmsx.org/?DISK=https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Sprite_Sprint/Sprite_Sprint.dsk
 or here:
 https://msxpen.com/codes/-Mz1BbBgYtPwsQP6QVit
