@@ -9,6 +9,7 @@ Authors: Rodrigo Gonzales (rodrivas78) / Flavio Martins Prado (praduca)
 Language: "X-BASIC" aka "MSX-BASIC KUN" 
 Category: EXTREM-256
 
+
 Files:
 ------
 SPSPRINT.BAS: BASIC file
@@ -16,7 +17,7 @@ SPSPRINT.TXT: Code in text format
 Sprite_Sprint.png: Screenshot 
 Sprite_Sprint.dsk: Disk image for emulator
 readme.txt: Description
-------------------------------------------------------
+
 
 Links:
 ------
