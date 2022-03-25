@@ -12,6 +12,7 @@ Category: EXTREM-256
 
 Files:
 ------
+
 SPSPRINT.BAS: BASIC file
 SPSPRINT.TXT: Code in text format 
 Sprite_Sprint.png: Screenshot 
@@ -21,6 +22,7 @@ readme.txt: Description
 
 Links:
 ------
+
 GitHub:
 https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Sprite_Sprint
 
@@ -47,23 +49,28 @@ Controls:
 Keyboard:
   - ARROWS (LEFT and RIGHT): steering wheel  
   - SPACEBAR (ACCELERATOR): gas pedal
+  
 
 Tips:
 ----
+
   - Increase the volume (the game has some sounds).
   
- Code overview:
- --------------
- - Lines 0-2 are initialization. 
- - Lines 3-5 are game loop.
- - 6-7 is the game reset subroutine.
- - 8 is collision handling (also used as audio reset).
- - and line 9 is the cassete loading simulation.
+  
+Code overview:
+--------------
+
+  - Lines 0-2 are initialization. 
+  - Lines 3-5 are game loop.
+  - 6-7 is the game reset subroutine.
+  - 8 is collision handling (also used as audio reset).
+  - and line 9 is the cassete loading simulation.
 
 
 Emulation:
----------
-The game should work well on almost any MSX emulator, but I 
+----------
+
+  The game should work well on almost any MSX emulator, but I 
 would like recommend BlueMSX or openMSX.
 
 Load Instructions:
