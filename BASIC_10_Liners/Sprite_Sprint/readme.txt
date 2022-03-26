@@ -1,4 +1,4 @@
-﻿
+
 
 Game description:
 -----------------
@@ -14,10 +14,11 @@ Files:
 ------
 
 SPSPRINT.BAS: BASIC file
-SPSPRINT.TXT: Code in text format 
+SPSPRINT.txt: Code in text format 
 Sprite_Sprint.png: Screenshot 
 Sprite_Sprint.dsk: Disk image for emulator
 readme.txt: Description
+Commented_Code.txt:  Commented and formatted code
 
 
 Links:
@@ -28,6 +29,7 @@ https://github.com/rodrivas78/MSX/tree/master/BASIC_10_Liners/Sprite_Sprint
 
 Play it online here:
 https://webmsx.org/?DISK=https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/Sprite_Sprint/Sprite_Sprint.dsk
+
 or here:
 https://msxpen.com/codes/-Mz1BbBgYtPwsQP6QVit
 
@@ -47,7 +49,7 @@ Controls:
 ---------
 
 Keyboard:
-  - ARROWS (LEFT and RIGHT): steering wheel  
+  - ARROWS (LEFT and RIGHT): steering wheel
   - SPACEBAR (ACCELERATOR): gas pedal
   
 
@@ -64,7 +66,10 @@ Code overview:
   - Lines 3-5 are game loop.
   - 6-7 is the game reset subroutine.
   - 8 is collision handling (also used as audio reset).
-  - and line 9 is the cassete loading simulation.
+  - and line 9 is the cassete loading simulation - it turns the game 
+    data initialization into an "intro".
+    
+    If you want more info, see the file with commented code! 
 
 
 Emulation:
@@ -82,7 +87,9 @@ Load Instructions:
 
 
 Rodrigo Gonzales
-e-mail.: rrivas2009@gmail.com 
-Twitter: @rodrivas78
+e-mail.: rrivas2009@gmail.com  /  twitter: @rodrivas78
+
+Flavio Martins Prado
+e-mail: flavio.mprado@gmail.com
 
 
