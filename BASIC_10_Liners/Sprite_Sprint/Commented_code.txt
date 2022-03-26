@@ -51,10 +51,10 @@
 	DATA1FE,23E,7E,FE,FC,F8,F0,2E0,207,F,1F,3F,7F,7E,27C,7F,7F,3F,1F,0,3E0,C0,81
 
 3
-	PC = PC - .2 :                                                         ' DECREASES THE PC VALUE (SCORING), WHOSE LOGIC IS: THE LOWER THE TIME THE GREATER THE SCORE.
+	PC = PC - .2 :                                                         ' DECREASES THE PC VALUE (SCORING), WHOSE LOGIC IS: THE SHORTER THE TIME LAP THE HIGHER THE SCORE.
 	IF W = 3                                                                'DIRECTIONAL CONTROL INPUT (RIGHT)
 		THEN
-			V = V - .04 : Z = V \ 1					' V IS USED ​​TO MITIGATE THE SENSITIVITY (AND SPEED) OF DIRECTIONAL CONTROL
+			V = V - .04 : Z = V \ 1					' V IS USED TO MITIGATE THE SENSITIVITY (AND SPEED) OF DIRECTIONAL CONTROL
 		ELSE
 			IF W = 7                                                'DIRECTIONAL CONTROL INPUT (LEFT)
 				THEN
