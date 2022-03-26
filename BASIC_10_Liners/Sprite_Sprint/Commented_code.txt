@@ -1,0 +1,233 @@
+0	' INITIALIZATION CODE
+	_TURBOON :
+	COLOR 1,14 : SCREEN1,3 :
+	? "LOAD NOSTALGIA.BAS,R" :
+	DEF INT B - N,S :
+	FOR F = 0 TO 13 :														' LOOP - READ UNPOPULATED SPRITES ON PLACE AND INITIALIZE PSG REGISTERS
+		READ T :
+		PUTSPRITE F + 1, ( (f MOD 3) * 32 + 96, (f \ 3) * 32 + 20),12,T :	' CALCULATE SPRITES POSITIONS BASED ON SPRITE INDEX
+		SOUND f,0 :															' 	THE RACE COURSE IS A 3X4 MATRIX OF 32 PIXEL SPRITES
+	NEXT F :																' 	STARTING AT POSITION 96,20
+	SOUND 7,190 : SOUND 8,10 :
+	S = 14336 :
+	A1$ = CHR$(8) : B1$ = CHR$(4) :
+	SPRITE$ (7) = CHR$(16) : SPRITE$ (8) = A1$ + A1$ :
+	DATA6,5,1,0,6,4,0														' DATA TO BE LOAD - DATA STATEMENTS UTILIZE FREE SPACE ON ALL LINES,
+																			' 	FREEING SOME SPACE (MORE SUBROUTINES :) )
+																			
+1	' LINES 1, 2 AND 9 POPULATES THE SPRITES, BUT ARE MODIFIED TO BE AN 'INTRO' THAT SIMULATES AN CASSETE LOAD
+	READ R$ :										' READ DATA TO BE 'VPOKED' 
+	T = LEN(R$) :
+	VL% = NOT VAL ("&H" + RIGHT$ (R$,2) ) :			' INVERT THE RACE COURSE DATA - SO COLLISIONS TRIGGER ON ANY THAT ARE NOT 'ASPHALT' 
+	IF R$ = "*"										' IF END OF DATA
+		THEN										' 	EXECUTE FINAL INITIALIZATION CODE AND JUMP TO GAME LOOP
+			KEYOFF :
+			CLS : COLOR 1,14,1 :
+			SPRITE$ (9) = A1$ + B1$ :
+			LOCATE 11,11 : ? CHR$(215) + CHR$(215) :
+			LOCATE 12,1 : ? "START!" :
+			ON SPRITE GOSUB 8 : GOSUB 8 :			' DEFINE SUBROUTINE FOR COLLISION TREATMENT AND CALL IT (TO INITIALIZE SOME PSG REGISTERS)
+			GOTO 3 :
+	DATA2,3,0,6,4,2,4,F07,FE0,0,7,F,1F,3F,FF,FE,FC,F8,F0,E1,3,307,0,F8,FC
+
+2	' THE LOADER IMPLEMENTS A SIMPLE RUN LENGHT COMPRESSION (SPRITE DATA IS HIGHLY REDUNDANT ). THIS LINE EXPANDS THE DATA IF NEEDED 
+	IF T < 3										' THE LENGHT (STORED ON VAR T) INDICATES A SINGLE BYTE
+		THEN
+			AD% = S :								' AD% STORES THE ADDRESS TO BE 'VPOKED' ON LINE 9 SUBROUTINE
+			GOSUB 9 :	
+			S = S + 1 :								' INCREMENTS THE ADDRESS AND
+			GOTO 1									'	JUMP (TO READ MORE DATA)
+		ELSE										' READ DATA HAS LENGHT 3 - FIRST CHAR IS REPETITION COUNTER, THE OTHER TWO IS ACTUAL BYTE
+			QT% = 1 + VAL ("&H" + LEFT$ (R$,1)) :	' GET REPETITION COUNTER FROM READ DATA
+			FOR F% = 0 TO QT% - 1 :					
+				AD% = S + F% :						' CALCULATE THE ADRESS TO BE 'VPOKED'
+				GOSUB 9 :
+			NEXT F% :
+			S = S + QT% :							' CALCULATES NEXT ADRESS TO BE 'VPOKED' AFTER REPEATED BLOCK
+			SPRITE$ (10) = CHR$(12) :				' MORE INITIALIZATION CODE - HERE TO SAVE SPACE ELSEWERE
+			SPRITE$ (11) = B1$ + A1$ :
+			X = 103 : Y = X : PC = 10000 :
+			GOTO 1 :								' JUMP (TO READ MORE DATA)
+	DATA1FE,23E,7E,FE,FC,F8,F0,2E0,207,F,1F,3F,7F,7E,27C,7F,7F,3F,1F,0,3E0,C0,81
+
+3
+	PC = PC - .2 :                                                         ' DECREASES THE PC VALUE (SCORING), WHOSE LOGIC IS: THE LOWER THE TIME THE GREATER THE SCORE.
+	IF W = 3                                                                'DIRECTIONAL CONTROL INPUT (RIGHT)
+		THEN
+			V = V - .04 : Z = V \ 1					' V IS USED ​​TO MITIGATE THE SENSITIVITY (AND SPEED) OF DIRECTIONAL CONTROL
+		ELSE
+			IF W = 7                                                'DIRECTIONAL CONTROL INPUT (LEFT)
+				THEN
+					V = V + .04 : Z = V \ 1
+				ELSE
+					IF Z = 0                                   'DEFINES MOVEMENT DIRECTION. Z = 0, MOVES THE CAR SPRITE UP
+						THEN
+							Y = Y - A                  'CHANGE VERTICAL POSITION FOR CAR SPRITE
+						ELSE
+							IF Z = 7
+								THEN
+									Y = Y - A : X = X + A         'DIAGONAL MOVEMENT (VERTICAL + HORIZONTAL MOVEMENT)
+								ELSE
+									IF Z = 6                   
+										THEN
+											X = X + A      'MOVES THE CAR SPRITE TO THE RIGHT  
+										ELSE
+											IF Z = 5
+												THEN
+													Y = Y + A : X = X + A
+												ELSE
+													IF Z = 4                 
+														THEN
+															Y = Y + A         'MOVES THE CAR SPRITE DOWN
+														ELSE
+															IF Z = 3
+																THEN
+																	Y = Y + A : X = X - A
+																ELSE
+																	IF Z = 2
+																		THEN
+																			X = X - A
+																		ELSE
+																			IF Z = 1
+																				THEN
+																					Y = Y - A : X = X - A
+
+4
+	I = Z MOD 4 + 8 :                                                          ' I SELECTS THE CAR SPRITE ACCORDING TO THE DIRECTION OF THE MOVIMENT (Z)
+	W = STICK(0) : P = STRIG(0) :						   ' W STORES DIRECTIONAL CONTROL INPUT, P STORES THE STATE OF SPACE KEY
+	PUTSPRITE 0,(X,Y),8,I :							   ' POSITION THE SPRITE ON THE SCREEN	
+	IF V > 7.9
+		THEN
+			V = 0							   
+		ELSE
+			IF V < 0						   'RANGE OF V		
+				THEN
+					V = 7.9
+				ELSE
+					IF A > .2				   'RANGE OF ACCELERATION
+						THEN
+							A = .2
+						ELSE
+							IF A < 0
+								THEN
+									A = 0
+								ELSE 
+									IF P = -1                                              'SPACE BAR PRESSED
+										THEN
+											A = A + .001                           'ACCELERATION INCREASES
+										ELSE
+											IF P = 0                               'SPACEBAR NOT PRESSED 
+												THEN
+													A = A - .001           'ACCELERATION DECREASES
+
+5
+	IF X > 170 								  'DEFINE THE POSITION OF CHECKPOINT 1								
+		THEN
+			K = 1 :							  'K IS TRUE (K=1) IF CHECKPOINT 1 IS CHECKED	
+			GOTO 3
+		ELSE
+			IF X > 150 AND Y > 123 AND K = 1			  'DEFINE THE POSITION OF CHECKPOINT 2	
+				THEN
+					L = 1 :  				  'IF K = 1 (CHECKPOINT 1 IS CHECKED) THEN L = 1 (CHECKPOINT 2 IS CHECKED)		
+					GOTO 3
+				ELSE
+					IF Y < 83 AND K = 1 AND L = 1              'SET THE POSITION AND CONDITION FOR THE END OF THE RACE
+						THEN
+							LOCATE 2,1 :
+								IF PC > HI                                                  'CHECK IF THERE IS A HI-SCORE
+									THEN
+										HI = PC : PC = HI :                          'HI STORES THE HIGHEST SCORE
+										? "SCORE : "; PC ; "HI - SC. : " ; HI :
+										k = 0 : L = 0 : A = 0 : P = 0 :
+										GOTO 6
+									ELSE
+										? "SCORE : ";PC;"HI - SC. : ";HI :
+										K = 0 : L = 0 : A = 0 : P = 0 :
+										GOTO 6 :
+						ELSE 3
+
+6
+	LOCATE 0,19 :
+	? "PRESS" : ? "RETURN" : ? " TO PLAY" : ? "AGAIN" :                      'RESET ROUTINE
+	IF INKEY$ = CHR$(13)                                                     'IF RETURN IS PRESSED
+		THEN
+			CLS :							  'CLEAR THE SCREEN
+			LOCATE 11,11 : ? CHR$(215) + CHR$(215) :                  'PRINT THE START GRID
+			GOTO 7                                                    'RESTART THE GAME
+		ELSE 6
+
+7
+	DATA3,7,F,1F,3F,FE,FC,F8,F0,500,F8,FC,FE,2FF,1F,F,207,800,80,C0,E0,3E0,207,F,1F,2FF,FE,FC:
+	LOCATE 12,1 :
+	? "START!" :
+	X = 103 : Y = X : PC = 10000 :                                            'SETS THE INITIAL POSITION OF THE CAR'S SPRITE AND THE INITIAL SCORE VALUE
+	GOTO 3
+
+
+8
+	SPRITEON :
+	SOUND 7,135 : SOUND 8,16 : SOUND 6,1 : SOUND 12,10 : SOUND 13,1 :	' SOME SOUND INITIALIZATION - HERE TO FREE SPACE ELSEWERE
+	A = A \ 1 :								' SAME AS A = FIX(A) BUT SHORTER :) PROBABLY SLOWER ALSO BUT HEY!
+	IF A > 0
+		THEN
+			C = 2
+		ELSE
+			C = 0 : A = 0 :
+	RETURN
+
+9	' THIS SIMULATES THE BYTE BEING LOADED BIT BY BIT FROM CASSETE AND BEING PLOTTED ONE BY ONE ON SCREEN
+	FOR LC = 1 TO 8 :
+		VB$ = RIGHT$ (BIN$(VL%),8) :		' THE INVERSION OF DATA ON LINE 1 RESULTS ON A 16 BITS INTEGER - THIS GETS THE 8 LEAST SIGNIFICANT ONES AS A STRING SIZE 8
+		BD$ = LEFT$ (VB$,LC) :				' THIS GETS A STRING WITH THE SAME NUMBER OF BITS FROM THE BYTE AS THE COUNTER (LC). IT IS THE FIRST N BITS FROM THE BYTE 
+		BE = VAL (RIGHT$ (BD$,1)) :			' THIS GETS THE LAST BIT - THE BIT BEING LOADED FROM "VIRTUAL CASSETE"
+		BF$ = BD$ + STRING$(8 - LC,"0") :	' THIS FILLS THE BIT SEQUENCE WITH ZEROS TO THE END. AT EACH ITERATION IT WILL BE FILLED WITH ACTUAL BITS, FROM LEFT TO RIGHT
+		BG = VAL ("&b" + BF$) :				' CONVERT THE BINARY STRING TO INT, SO IT CAN BE 'VPOKED' INTO SPRITE DATA
+		VPOKE AD%,BG :						' AT EACH ITERACTION, THIS VPOKE PUT SPRITE DATA THAT CORRESPONDS TO 8 BITS BEING LOADED ONE BY ONE
+		COLOR ,,LC + 4 :					' CYCLE THE BORDER COLOR TO SIMULATE DATA BEING LOADED FROM CASSETE
+		SOUND 0,70 - 35 * (BE) :			' SIMULATES THE SOUND OF DATA BEING LOADED - DEPENDS ON DATA (BE) BEING 0 OR 1
+	NEXT LC :
+	RETURN :
+	DATAF8,400,4E0,C0,80,D00,5FF,900,5FF,D00,1,3,407,400,1F,3F,7F,2FF,F8,F0,2E0,*
+
+10''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+10'	MAIN VARIABLES
+10'	X  			->  HORIZONTAL POSITION FOR CAR SPRITE
+10'	Y  			->  VERTICAL POSITION FOR CAR SPRITE
+10'	S (LINE 0)	-> RESULT OF BASE(9) - USED BECAUSE THE BASE FUNCTION IS NOT AVAILABLE 
+10'					UNDER XBASIC
+10'	W			-> DIRECTIONAL CONTROL INPUT
+10'     P			-> STORES THE STATE OF SPACE KEY
+10'     Z			-> DEFINES MOVEMENT DIRECTION ACCORDING TO W (INPUT CONTROL) AND V
+10'     V			-> USED ​​TO MITIGATE THE SENSITIVITY (AND SPEED) OF DIRECTIONAL CONTROL
+10'	I			-> SELECT THE CAR SPRITE ACCORDING TO THE DIRECTION OF THE MOVIMENT (Z)
+10'	A			-> ACCELERATION FOR CAR SPRITE	                     
+10'	PC 			-> SCOREBOARD
+10'	HI 			-> HI-SCORE	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+10'	
+
