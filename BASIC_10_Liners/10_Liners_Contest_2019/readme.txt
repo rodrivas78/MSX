@@ -27,7 +27,7 @@ It will be victorious who can get through all 10 levels before the ammo ends.
 
 The recommended emulator is blueMSX.
 Also, you can play instantly with the following online emulator: 
-http://webmsx.org/?MACHINE=MSX1&DISK=https://sites.google.com/site/taivas01/msxspirit/Ballistic_Challenge.dsk
+https://webmsx.org/?DISK=https://github.com/rodrivas78/MSX/raw/master/BASIC_10_Liners/10_Liners_Contest_2019/Ballistic_Challenge.dsk
 
 
 Program descriptions and code explanations
@@ -36,6 +36,7 @@ https://github.com/rodrivas78/Ballistic-Challenge
 
 
 Rodrigo Gonzales
+
 
 
 
