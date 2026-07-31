@@ -136,7 +136,7 @@ The main Loop of the game occurs between lines 30 and 90.
  To learn more about this one-liner I recommend reading the very interesting book:
 "10 PRINT CHR$(205.5+RND(1));: GOTO 10" - The MIT Press (various authors)
 The book can be downloaded for free through the following link:
-http://trope-tank.mit.edu/10_PRINT_121114.pdf
+https://10print.org/
 
 
 Rodrigo Gonzales
